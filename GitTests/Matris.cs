@@ -23,7 +23,7 @@ namespace GitTests
             }
         }
 
-        private void DegerAta(int min=1)
+        private void DegerAta(int min=1, int max=9)
         {
             for (int i = 0; i < M.GetLength(0); i++)
                 for (int j = 0; j < M.GetLength(0); j++)
