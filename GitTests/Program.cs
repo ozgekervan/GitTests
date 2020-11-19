@@ -13,13 +13,7 @@ namespace GitTests
             Matris M = new Matris();
         }
 
-        class Matris
-        {
-            public Matris()
-            {
-
-            }
-        }
+       
 
     }
 }
