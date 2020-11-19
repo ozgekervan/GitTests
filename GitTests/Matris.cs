@@ -29,5 +29,10 @@ namespace GitTests
                 for (int j = 0; j < M.GetLength(0); j++)
                     M[i, j] = new Random().Next(min, 9);
         }
+
+        public void Transpoz()
+        {
+            // TODO:
+        }
     }
 }
