@@ -23,11 +23,11 @@ namespace GitTests
             }
         }
 
-        private void DegerAta()
+        private void DegerAta(int min=1)
         {
             for (int i = 0; i < M.GetLength(0); i++)
                 for (int j = 0; j < M.GetLength(0); j++)
-                    M[i, j] = new Random().Next(1, 9);
+                    M[i, j] = new Random().Next(min, 9);
         }
     }
 }
